@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: 110 auto;
+}
+.container{
+    margin: 100px auto;
+    width: 80%;
+    /* border: 1px solid black; */
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar__logo{
+    display: flex;
+    gap: 5px;
+    align-self: center;
+}
+.navbar__list{
+    margin: 30px 0 100px 0;
+    display: flex;
+    gap: 66px;
+}
+.navbar__link{
+    color: #2f8cce;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.navbar__link:hover{
+     color: #003B66;
+}
+.and{
+    display: flex;
+}
+.and__title{
+    width: 610px;
+    color: #003B66;
+font-family: sans-serif;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 117%; /* 105.3px */
+}
+.and__text{
+    margin: 100px 0 80px 0;
+    width: 407px;
+    color: #005999;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+font-weight: 700;
+
+}
+.and__btns{
+    display: flex;
+    gap: 50px;
+}
+.and__btn{
+    border-radius: 4px;
+    background-color: #003B66;
+    /* background: linear-gradient(226deg, #004a80 0%,#002c4d,100%); */
+    width: 163px;
+    height: 50px;
+    color: #fefefe;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.and__botn{
+    width: 163px;
+    height: 50px;
+    border-radius: 4px;
+    border: 1px solid #003B66;
+    background-color: #fefefe ;
+    color: #003B66;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.and__left{
+    background-image: url(img/Group\ 4.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.assessme{
+    text-align: center;
+    margin: 100px auto;
+    font-size: 300px;
+    font-weight: 100;
+    color: #eaf1f6;
+    font-family:sans-serif;
+}
